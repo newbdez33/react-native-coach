@@ -1,4 +1,7 @@
+
 # react-native-coach
+
+@Author Jacky
 
 ## day 1 环境搭建
  * XCode/AndroidStudio
@@ -26,5 +29,10 @@
 ## day 6 聊天APP实现
  * 与原生系统界面结合
 
-## day 7 
+## day 7 猫叫模拟器 项目
+ * 微信微博等分享组件实现
+ * 用户数据收集分析
+
+## day 8 Android上架
  
+## day 9 iOS上架
