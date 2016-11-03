@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "city": "大连市",
+    "company": "大可又一城",
+    "positionNumber": 2,
+    "positions": [
+      {
+        "id": 1,
+        "name": "服务员 ",
+        "salary": "3500元"
+      },
+      {
+        "id": 2,
+        "name": "厨师",
+        "salary": "4500元"
+      }
+    ],
+    "welfareNumber": 3,
+    "welfare": [
+      "五险一金",
+      "13薪",
+      "年终奖"
+    ],
+    "description": "要求工作经验10年以上，我们招鲁菜师傅，冷热菜什么的要色香味俱全。",
+    "address": "大连甘井子星海公园对面",
+    "email": "26873651@qq.com",
+    "contactNumber": "18858878510",
+    "posttime": "2016-06-30",
+    "posterId": 10,
+    "posterName": "刘东方",
+    "isFavorite": 0,
+    "hasPic": true,
+    "pics": [
+      "job01.png",
+      "job02.png"
+    ],
+    "active": 1
+  }
+]
