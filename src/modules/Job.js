@@ -33,7 +33,7 @@ export default React.createClass({
         console.log(this.state);
         console.log(this.state['item']);
         return (
-            <Page className="cell" title="职位详情">
+            <Page className="cell" title="职位详情" subTitle="OOKK">
                 <Cells>
                     <Cell>
                         <CellBody>
@@ -45,28 +45,28 @@ export default React.createClass({
                     </Cell>
                     <Cell>
                         <CellBody>
-                        {this.state.item.welfare.map(function(object, i){
-                            return (
-                                        <span style={{color:`#3cc51f`, padding: `2px`,paddingRight: `8px`,paddingLeft: `8px`, marginRight: `5px`, borderRadius:`15px`, borderWidth:`1px`, borderColor:`#3cc51f`, borderStyle:`solid`}}>{object}</span>
-                            );
-                        }, this)}
+                            {this.state.item.welfare.map(function(object, i){
+                                return (
+                                    <span style={{color:`#3cc51f`, padding: `2px`,paddingRight: `8px`,paddingLeft: `8px`, marginRight: `5px`, borderRadius:`15px`, borderWidth:`1px`, borderColor:`#3cc51f`, borderStyle:`solid`}}>{object}</span>
+                                );
+                            }, this)}
                         </CellBody>
                     </Cell>
                 </Cells>
                 <CellsTitle>正在招聘的职位</CellsTitle>
                 <Cells>
-                {this.state.item.positions.map(function(object, i){
-                    return (
-                        <Cell>
-                            <CellBody>
-                                {object.name}
-                            </CellBody>
-                            <CellFooter>
-                                {object.salary}
-                            </CellFooter>
-                        </Cell>
-                    );
-                }, this)}
+                    {this.state.item.positions.map(function(object, i){
+                        return (
+                            <Cell>
+                                <CellBody>
+                                    {object.name}
+                                </CellBody>
+                                <CellFooter>
+                                    {object.salary}
+                                </CellFooter>
+                            </Cell>
+                        );
+                    }, this)}
                 </Cells>
                 <Cells>
                     <Cell>
@@ -104,11 +104,11 @@ export default React.createClass({
                     </Cell>
                     <Cell>
                         <CellBody>
-                        {this.state.item.pics.map(function(object, i){
-                            return (
-                                <img src={object} style={{width:80, height:80, marginRight: `5px`}}/>
-                            );
-                        }, this)}
+                            {this.state.item.pics.map(function(object, i){
+                                return (
+                                    <img src={object} style={{width:80, height:80, marginRight: `5px`}}/>
+                                );
+                            }, this)}
                         </CellBody>
                     </Cell>
                 </Cells>

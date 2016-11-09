@@ -6,8 +6,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 module.exports = {
   entry: './src/index.js', // 入口文件，单入口 index.jsx 文件
   output: { path: './dist', publicPath: 'dist/', filename: 'bundle.js' }, // 编译到的文件
-  // debug: true,
-  // devtool: "#eval-source-map",
+  debug: true,
+  devtool: "#eval-source-map",
   module: {
     loaders: [ // 使用特定的加载器 loader 处理特定的文件
       {

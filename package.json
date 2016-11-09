@@ -8,12 +8,13 @@
   "description": "React JS Startup by Jacky",
   "main": "./src/index.js",
   "scripts": {
-      "dev": "webpack-dev-server --devtool --progress --colors --hot",
+      "dev": "webpack-dev-server --devtool source-map --progress --colors --hot",
       "deploy": "NODE_ENV=production webpack -p"
   },
   "author": "jacky",
   "license": "ISC",
   "dependencies": {
+    "babel": "^6.5.2",
     "babel": "^6.5.2",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
